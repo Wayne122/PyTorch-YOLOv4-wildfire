@@ -1,0 +1,12 @@
+# KITTI Object Detection Evaluation 2012 dataset http://www.cvlibs.net/datasets/kitti/eval_object.php
+# Train command: python train.py --data ./data/kitti.yaml
+
+# train and val datasets (image directory or *.txt file with image paths)
+train: /content/drive/MyDrive/CMPE297-Project/wildfire_dataset/bing/train.txt
+val: /content/drive/MyDrive/CMPE297-Project/wildfire_dataset/bing/val.txt
+
+# number of classes
+nc: 2
+
+# class names
+names: ['smoke', 'fire']
